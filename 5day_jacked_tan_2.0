@@ -1,0 +1,358 @@
+# Week 1
+## Day 1
+// **T1**. Warmup up to **10 RM** for the first set, then try a 10RM, tap the first
+// set and enter the 10RM weight you get. Then, do the drop sets (based on 1RM)
+Squat / 1x10 75%+ (10RM), 2x6 65% (TM 70%), 1x6+ 65% (TM 70%) / update: custom() {~
+  if (week >= 7 && week <= 11 && setIndex == 1) {
+    weights = completedWeights[1] * (week >= 10 ? 0.9 : 0.85)
+  }
+~} / progress: custom() {~
+  if (week == 6 || week == 12) {
+    rm1 = completedWeights[1]
+  }
+~}
+
+// **T2a.**
+Sumo Deadlift / 4x10 (TM 50%) / 50%
+
+// **T2b.** Same as in T1 - work up to 15RM, then record the weight.
+// Then, do MRS (Max Rep Sets) - i.e. AMRAP, as many reps as possible
+IsoLat Low Row / 1x15 60%+ (15RM), 3x10+ 60% (MRS) / update: custom() {~ if (setIndex == 1) { weights = completedWeights[1] } ~}
+
+// **T3.** Same as **T2b**, just 20RM
+xen: Romanian Deadlift / 1x20 50%+ (20RM), 3x10+ 50% (MRS) / update: custom() { ...IsoLat Low Row }
+
+// **T3.**
+Seated Row[1-6] / ...xen: Romanian Deadlift[1] / update: custom() { ...IsoLat Low Row }
+
+// **T3.**
+Hammer Curl[1-6] / ...xen: Romanian Deadlift[1] / update: custom() { ...IsoLat Low Row }
+
+## Day 2
+// ...Squat
+Bench Press[1,1-5] / ...Squat
+// ...Deficit Deadlift
+Bench Press Close Grip[2,1-5] / ...Sumo Deadlift
+// ...Incline Row
+Shoulder Press[3,1-5] / ...IsoLat Low Row
+// ...Romanian Deadlift[1]
+Shrug, Leverage Machine[4,1-6] / ...xen: Romanian Deadlift[1] / update: custom() { ...IsoLat Low Row }
+// ...Romanian Deadlift[1]
+Pec Deck[4,1-6] / ...xen: Romanian Deadlift[1] / update: custom() { ...IsoLat Low Row }
+// ...Romanian Deadlift[1]
+Face Pull, Cable[4,1-6] / ...xen: Romanian Deadlift[1] / update: custom() { ...IsoLat Low Row }
+// ...Romanian Deadlift[1]
+Triceps Pushdown[4,1-6] / ...xen: Romanian Deadlift[1] / update: custom() { ...IsoLat Low Row }
+
+## Day 3
+// ...Triceps Pushdown[1]
+Cable Crunch, Cable[4,1-6] / ...xen: Romanian Deadlift[1] / update: custom() { ...IsoLat Low Row }
+// ...Triceps Pushdown[1]
+Knees to Elbows[4,1-6] / ...xen: Romanian Deadlift[1] / update: custom() { ...IsoLat Low Row }
+// ...Sumo Deadlift
+Lat Pulldown[2,1-5] / ...Sumo Deadlift
+// ...Incline Row
+High Row[3,1-5] / ...IsoLat Low Row
+// ...Triceps Pushdown[1]
+Ab Wheel[4,1-6] / ...xen: Romanian Deadlift[1] / update: custom() { ...IsoLat Low Row }
+// ...Triceps Pushdown[1]
+Seated Calf Raise, Leverage Machine[4,1-6] / ...xen: Romanian Deadlift[1] / update: custom() { ...IsoLat Low Row }
+
+## Day 4
+// ...Squat
+Deadlift[1,1-5] / ...Squat
+// ...Deficit Deadlift
+Front Squat[2,1-5] / ...Sumo Deadlift
+// ...Incline Row
+Incline Curl[3,1-5] / ...IsoLat Low Row
+// ...Triceps Pushdown[1]
+Leg Extension[4,1-6] / ...xen: Romanian Deadlift[1] / update: custom() { ...IsoLat Low Row }
+// ...Triceps Pushdown[1]
+Lunge, Bodyweight[4,1-6] / ...xen: Romanian Deadlift[1] / update: custom() { ...IsoLat Low Row }
+// ...Triceps Pushdown[1]
+Bicep Curl, EZ Bar[4,1-6] / ...xen: Romanian Deadlift[1] / update: custom() { ...IsoLat Low Row }
+
+## Day 5
+// ...Squat
+Overhead Press[1,1-5] / ...Squat
+// ...Deficit Deadlift
+Incline Bench Press[2,1-5] / ...Sumo Deadlift
+// ...Incline Row
+Front Raise[3,1-5] / ...IsoLat Low Row
+// ...Triceps Pushdown[1]
+Triceps Pushdown, Cable[4,1-6] / ...xen: Romanian Deadlift[1]
+// ...Triceps Pushdown[1]
+Cable Crunch, Cable[4,1-6] / ...xen: Romanian Deadlift[1]
+// ...Triceps Pushdown[1]
+Lateral Raise, Cable[4,1-6] / ...xen: Romanian Deadlift[1] / update: custom() { ...IsoLat Low Row }
+
+
+# Week 2
+## Day 1
+// **T1**. Warmup up to **8 RM** for the first set, then try a 8RM, tap the first
+// set and enter the 8RM weight you get. Then, do the drop sets (based on 1RM)
+Squat / 1x8 80%+ (8RM), 2x6 70% (TM 75%), 1x6+ 70% (TM 75%)
+Sumo Deadlift / 4x8 (TM 60%) / 60%
+// **T2b.** Same as in T1 - work up to 12RM, then record the weight.
+// Then, do MRS (Max Rep Sets) - i.e. AMRAP, as many reps as possible
+IsoLat Low Row / 1x12 68%+ (12RM), 3x8+ 68% (MRS)
+// **T3.** Same as **T2b**, just 18RM
+xen: Romanian Deadlift / 1x18 50%+ (18RM), 3x10+ 50% (MRS)
+
+## Day 2
+
+
+## Day 3
+
+
+## Day 4
+
+
+## Day 5
+
+
+
+# Week 3
+## Day 1
+// **T1**. Warmup up to **6 RM** for the first set, then try a 6RM, tap the first
+// set and enter the 6RM weight you get. Then, do the drop sets (based on 1RM)
+Squat / 1x6 85%+ (6RM), 2x4 75% (TM 80%), 1x4+ 75% (TM 80%)
+Sumo Deadlift / 4x6 (TM 70%) / 70%
+// **T2b.** Same as in T1 - work up to 10RM, then record the weight.
+// Then, do MRS (Max Rep Sets) - i.e. AMRAP, as many reps as possible
+IsoLat Low Row / 1x10 73%+ (10RM), 3x6+ 73% (MRS)
+// **T3.** Same as **T2b**, just 16RM
+xen: Romanian Deadlift / 1x16 55%+ (16RM), 3x8+ 55% (MRS)
+
+## Day 2
+
+
+## Day 3
+
+
+## Day 4
+
+
+## Day 5
+
+
+
+# Week 4
+## Day 1
+// **T1**.
+Squat / 1x4 90%+ (4RM), 2x4 75% (TM 80%), 1x4+ 75% (TM 80%)
+// **T2a.**
+Sumo Deadlift / 5x4 (TM 70%) / 70%
+// **T2b.**
+IsoLat Low Row / 1x8 73%+ (8RM), 3x5+ 73% (MRS)
+// **T3.** Same as **T2b**, just 14RM
+xen: Romanian Deadlift / 1x14 65%+ (14RM), 3x8+ 65% (MRS)
+
+## Day 2
+
+
+## Day 3
+
+
+## Day 4
+
+
+## Day 5
+
+
+
+# Week 5
+## Day 1
+Squat / 1x2 95%+ (2RM), 3x2 80% (TM 85%), 1x2+ 80% (TM 85%)
+Sumo Deadlift / 7x2 (TM 80%) / 80%
+IsoLat Low Row / 1x6 83%+ (6RM), 3x3+ 83% (MRS)
+// **T3.** Same as **T2b**, just 12RM
+xen: Romanian Deadlift / 1x12 70%+ (12RM), 3x7+ 70% (MRS)
+
+## Day 2
+
+
+## Day 3
+
+
+## Day 4
+
+
+## Day 5
+
+
+
+# Week 6
+## Day 1
+// **T1**. Testing your 1RM! This set will update 1RM of this exercise.
+Squat / 1x1 (1RM) / 100%+
+// **T3.** Same as **T2b**, just 10RM
+xen: Romanian Deadlift / 1x10 75%+ (10RM), 3x5+ 75% (MRS)
+
+## Day 2
+// ...Squat
+Bench Press[1] / ...Squat / 100%
+
+## Day 3
+
+
+## Day 4
+// ...Squat
+Deadlift[1] / ...Squat / 100%
+
+## Day 5
+// ...Squat
+Overhead Press[1] / ...Squat / 100%
+
+
+# Week 7
+## Day 1
+// **T1**. It's start of the next cycle, where drop sets are based on your first set.
+// Work up to your 6RM, after that, do the drop sets, that are 85% of your new 6RM.
+Squat / 1x6 85%+ (6RM), 4x3 72.5% (6RM 85%), 1x3+ 72.5% (6RM 85%)
+Sumo Deadlift / 6x5 (TM 70%) / 70%
+IsoLat Low Row / 1x12 68%+ (12RM), 3x8+ 68% (MRS)
+
+## Day 2
+Bench Press Close Grip[2,7-10] / ...Sumo Deadlift
+Shoulder Press[3,7-10] / ...IsoLat Low Row
+// ...Squat
+Bench Press[1,7-11] / ...Squat
+
+## Day 3
+
+
+## Day 4
+Front Squat[2,7-10] / ...Sumo Deadlift
+Incline Curl[3,7-10] / ...IsoLat Low Row
+// ...Squat
+Deadlift[1,7-11] / ...Squat
+
+## Day 5
+Incline Bench Press[2,7-10] / ...Sumo Deadlift
+Front Raise[3,7-10] / ...IsoLat Low Row
+// ...Squat
+Overhead Press[1,7-11] / ...Squat
+
+
+# Week 8
+## Day 1
+// **T1**.
+Squat / 1x4 90%+ (4RM), 4x2 75% (4RM 85%), 1x2+ 75% (4RM 85%)
+// **T2a**.
+Sumo Deadlift / 5x5 (TM 75%) / 75%
+// **T2b**.
+IsoLat Low Row / 1x10 73%+ (10RM), 3x6+ 73% (MRS)
+// **T3.**
+xen: Romanian Deadlift / 1x18 50%+ (18RM), 3x10+ 50% (MRS)
+// ...Triceps Pushdown
+Seated Row[4,8-10] / ...xen: Romanian Deadlift[1]
+// ...Triceps Pushdown
+Hammer Curl[4,8-10] / ...xen: Romanian Deadlift[1]
+
+## Day 2
+// ...Triceps Pushdown[1]
+Shrug, Leverage Machine[4,8-10] / ...xen: Romanian Deadlift[1]
+// ...Triceps Pushdown[1]
+Pec Deck[4,8-10] / ...xen: Romanian Deadlift[1]
+// ...Triceps Pushdown[1]
+Face Pull, Cable[4,8-10] / ...xen: Romanian Deadlift[1]
+
+## Day 3
+
+
+## Day 4
+// ...Triceps Pushdown[1]
+Leg Extension[4,8-10] / ...xen: Romanian Deadlift[1]
+// ...Triceps Pushdown[1]
+Lunge, Bodyweight[4,8-10] / ...xen: Romanian Deadlift[1]
+// ...Triceps Pushdown[1]
+Bicep Curl, EZ Bar[4,8-10] / ...xen: Romanian Deadlift[1]
+
+## Day 5
+// ...Triceps Pushdown[1]
+xen: Romanian Deadlift[4,8-10] / ...xen: Romanian Deadlift[1]
+// ...Triceps Pushdown[1]
+Shrug, Leverage Machine[4,8-10] / ...xen: Romanian Deadlift[1]
+// ...Triceps Pushdown[1]
+Lateral Raise, Cable[4,8-10] / ...xen: Romanian Deadlift[1]
+
+
+# Week 9
+## Day 1
+Squat / 1x2 95%+ (2RM), 4x1 80% (2RM 85%), 1x1+ 80% (2RM 85%)
+Sumo Deadlift / 5x4 (TM 80%) / 80%
+IsoLat Low Row / 1x8 78%+ (8RM), 3x4+ 78% (MRS)
+xen: Romanian Deadlift / 1x16 55%+ (16RM), 3x8+ 55% (MRS)
+
+## Day 2
+
+
+## Day 3
+
+
+## Day 4
+
+
+## Day 5
+
+
+
+# Week 10
+## Day 1
+Squat / 1x5 85%+ (5RM), 2x2 75% (5RM 90%), 1x2+ 75% (5RM 90%)
+Sumo Deadlift / 6x3 (TM 82.5%) / 82.5%
+IsoLat Low Row / 1x6 83%+ (6RM), 3x3+ 83% (MRS)
+xen: Romanian Deadlift / 1x14 65%+ (14RM), 3x8+ 65% (MRS)
+
+## Day 2
+
+
+## Day 3
+
+
+## Day 4
+
+
+## Day 5
+
+
+
+# Week 11
+## Day 1
+Squat / 1x3 92%+ (3RM), 2x1 82% (3RM 90%), 1x1+ 82% (3RM 90%)
+
+## Day 2
+
+
+## Day 3
+
+
+## Day 4
+
+
+## Day 5
+
+
+
+# Week 12
+## Day 1
+// **T1**. It's week 12 - last week, it's time to test your 1RM! This set will update 1RM of this exercise.
+Squat / 1x1 (1RM) / 100%+
+
+## Day 2
+// ...Squat
+Bench Press[1] / ...Squat / 100%
+
+## Day 3
+
+
+## Day 4
+// ...Squat
+Deadlift[1] / ...Squat / 100%
+
+## Day 5
+// ...Squat
+Overhead Press[1] / ...Squat / 100%
+
+
