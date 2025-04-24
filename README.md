@@ -44,11 +44,11 @@ Because you're not here to mess around with lightweight code. You're here to:
 ## 📈 Example Program: Build Your Gains
 
 Here’s a quick example of a LiftOScript program to get you **pumped**:
-Week 1: Hypertrophy Phase
+- Week 1: Hypertrophy Phase
 squat 4x10 @ 65% bench_press 4x10 @ 65% deadlift 4x8 @ 70%
-Week 2: Strength Phase
+- Week 2: Strength Phase
 squat 5x5 @ 75% bench_press 5x5 @ 75% deadlift 5x4 @ 80%
-Week 3: Deload
+- Week 3: Deload
 squat 3x8 @ 50% bench_press 3x8 @ 50% deadlift 3x6 @ 55%
 
 
